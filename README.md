@@ -26,17 +26,6 @@ play around with increasing it or you can run the function in a loop with the
 savedate feature that the scrape_from_wayback function returns like the example 
 in the bottom of the python file. 
 
-2. Clean-Titles
-
-In this jupyter notebook we go over the process of cleaning titles such that we can display the data we want accurately. 
-This involves
-
-3. Bert-S-Trainer
-
-Once we have this list of titles it may be quite lengthy, and high cost model sentiment analysis
-can be a lengthy process. In this file I layed out the steps to train a distillBert model to 
-have the ability of binary text sentiment analysis with 99 accuracy to that of a top rated 
-RoBerta Based Model. Bringing the time it takes to be able to process titles down well over 50%
 
 3. Clean-Titles
 
