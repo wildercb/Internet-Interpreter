@@ -32,14 +32,9 @@ in the bottom of the python file.
 In this jupyter notebook we go over the process of cleaning titles such that we can display the data we want accurately. 
 First we concatenate all the files if we scraped the titles in batches. Then we remove alpha-numerica characters and ads
 Then we delete duplicates. Then we order the titles by date. 
-Next is an example of how to add sentiment analysis from a model deployed on the huggingface pipeline. For my project
-I applied this to just 5300 random titles and the output was two columns with these 5300 titles and a 0/1 for negative
-/ positive. This was the training data used to train a distillBert model to replicate its efficacy in seniment analysis
-for reddit titles. The training set of 5000 had an accurary rate of 99% on the other 300 titles as the test set, after 3 epochs.
-This process took roughly 1 hour. In contrast the process of going over 5300 titles with the RoBerta model took about 10 minutes
-in a google collab to Bert-S's 3.5. 
+And an example of how to add sentiment analysis from a model deployed on the huggingface pipeline. 
 
 4. nlp 
 
-In this Jupyter Notebook we go over the processes of actually displaying relevant data from the titles we collected.
+In this Jupyter Notebook we go over the processes of actually displaying relevant data from the titles we collected. using common NLP processes of textual extraction to show key insights about trends on the reddit homepage. 
 
