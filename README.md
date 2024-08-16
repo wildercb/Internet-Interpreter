@@ -1,10 +1,8 @@
 To use:
 
-Scrape from wayback.py:
+Scrape from wayback.py: 
 
-Modify file scrape_from_wayback
-Use jupyter notebook
-Or call
+Use jupyter notebook or 
 python scrapeFromWayback(url, datestamp from, datestamp to, output file name, elements_to_scrape, max requests)
 
 
